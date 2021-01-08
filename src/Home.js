@@ -1,0 +1,23 @@
+import './Home.css';
+import image from './image1.png';
+import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+function Home() {
+  return (
+    <div>
+    <div className="container">
+    <div className="welcome">
+      <h1> Welcome to the Resource Finder! </h1>
+      <div className="findresources">
+        <button className="button-style-home"> Find resources now! </button>
+      </div>
+    </div>
+      <img className="image1class" src={image} />
+    </div>
+    </div>
+
+  );
+}
+
+export default Home;

@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;584;700&display=swap');
+
+/* * {
+  background-color: #056BA5;
+} */
+
+h1 {text-align: center;}
+
+h2 {text-align: left;}
+
+
+.prevskip {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #056BA5;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 170px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.resourcefinder{
+  font-family: 'Quicksand', sans-serif;
+  background-color: #056BA5;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  padding-left: 30px;
+}
+
+.container {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #056BA5;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20vh;
+}
+
+.findresources {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #056BA5;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20vh;
+}
+
+.container2b {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #056BA5;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+.container3 {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #056BA5;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 12vh;
+}
+
+.container4 {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #056BA5;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20vh;
+}
+
+.container5 {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #056BA5;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 12vh;
+
+}
+
+.container6 {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #056BA5;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20vh;
+}
+
+.button-style {
+  width: 170px;
+  height: 55px;
+  background-color: white;
+  box-shadow: 0px 3px 5px #888888;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  border: none;
+  color: #056BA5;
+  font-weight: bold;
+  margin: 5px;
+  margin-right: 40px;
+}
+
+.button-style-a {
+  width: 170px;
+  height: 55px;
+  background-color: white;
+  box-shadow: 0px 3px 5px #888888;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  border: none;
+  color: #056BA5;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.button-style-home {
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: white;
+  box-shadow: 0px 3px 5px #888888;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  border: none;
+  color: #056BA5;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.button-style1 {
+  width: 85px;
+  height: 35px;
+  background-color: white;
+  box-shadow: 0px 3px 5px #888888;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  border: none;
+  color: #056BA5;
+  font-weight: bold;
+  margin: 5px;
+}
+
+
+.button-style2b1 {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  box-shadow: 0px 3px 5px #888888;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  border: none;
+  color: #056BA5;
+  font-weight: bold;
+  margin: 5px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.button-style2b2 {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  box-shadow: 0px 3px 5px #888888;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  border: none;
+  color: #056BA5;
+  font-weight: bold;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.button-style2b3 {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  box-shadow: 0px 3px 5px #888888;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  border: none;
+  color: #056BA5;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.button-style3a {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  box-shadow: 0px 3px 5px #888888;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  border: none;
+  color: #056BA5;
+  font-weight: bold;
+  margin: 5px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.button-style3b {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  box-shadow: 0px 3px 5px #888888;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  border: none;
+  color: #056BA5;
+  font-weight: bold;
+  margin: 5px;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.button-style3c {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  box-shadow: 0px 3px 5px #888888;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  border: none;
+  color: #056BA5;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.button-style-issue-area1 {
+  width: 170px;
+  height: 55px;
+  background-color: white;
+  box-shadow: 0px 3px 5px #888888;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  border: none;
+  color: #056BA5;
+  font-weight: bold;
+  margin: 5px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.button-style-issue-area2 {
+  width: 170px;
+  height: 55px;
+  background-color: white;
+  box-shadow: 0px 3px 5px #888888;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  border: none;
+  color: #056BA5;
+  font-weight: bold;
+  margin: 5px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-left: 130px;
+  margin-right: 130px;
+
+}
+
+.button-style-issue-area3 {
+  width: 170px;
+  height: 55px;
+  background-color: white;
+  box-shadow: 0px 3px 5px #888888;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  border: none;
+  color: #056BA5;
+  font-weight: bold;
+  margin: 5px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+
+.image1class {
+  order: 1;
+}
+
+.welcome {
+  order: 2;
+}
+
+.question {
+
+}
+
+.college {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.colleges {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+
+
+}
+
+.department {
+
+
+
+}
+
+.industry {
+
+
+}
+
+.issuearea {
+  align-items: center;
+}
+
+.issues{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
