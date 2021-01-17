@@ -12,6 +12,7 @@ import Frame6 from './frame6';
 
 export default function App() {
   return (
+
     <Router>
       <div>
         <nav>

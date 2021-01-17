@@ -41,7 +41,8 @@ h2 {text-align: left;}
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding-top: 20vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 
 .findresources {

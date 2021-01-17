@@ -1,6 +1,9 @@
 import './Home.css';
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Frame3 from './frame3';
+import Frame2 from './frame2';
+import { Link } from 'react-router-dom';
 
 function Frame2b () {
   return (
@@ -12,20 +15,20 @@ function Frame2b () {
     <div className="question">
       <h1> What area? </h1>
       <div className="area1">
-        <button className="button-style2b1"> Health </button>
-        <button className="button-style2b2"> Housing </button>
-        <button className="button-style2b3"> DEI </button>
+        <Link to="/frame3"><button className="button-style2b1"> Health </button></Link>
+        <Link to="/frame3"><button className="button-style2b2"> Housing </button></Link>
+        <Link to="/frame3"><button className="button-style2b3"> DEI </button></Link>
       </div>
       <div>
-        <button className="button-style2b1"> COVID-19 </button>
-        <button className="button-style2b2"> Financial Aid </button>
-        <button className="button-style2b3"> Other </button>
+        <Link to="/frame3"><button className="button-style2b1"> COVID-19 </button></Link>
+        <Link to="/frame3"><button className="button-style2b2"> Financial Aid </button></Link>
+        <Link to="/frame3"><button className="button-style2b3"> Other </button></Link>
       </div>
     </div>
     </div>
     <div className="prevskip">
-      <button className="button-style1"> Prev </button>
-      <button className="button-style1"> Skip </button>
+      <Link to="/frame2"><button className="button-style1"> Prev </button></Link>
+      <Link to="/frame3"><button className="button-style1"> Next </button></Link>
     </div>
     </div>
 

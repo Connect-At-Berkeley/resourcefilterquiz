@@ -2,8 +2,8 @@ import './Home.css';
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Select from 'react-select';
-
-
+import Frame5 from './frame5';
+import { Link } from 'react-router-dom';
 
 const choices = [
   { value: 'perf', label: 'Performing Arts & Theater' },
@@ -38,8 +38,8 @@ function Frame6() {
     </div>
     </div>
     <div className="prevskip">
-      <button className="button-style1"> Prev </button>
-      <button className="button-style1"> Skip </button>
+      <Link to="/frame5"><button className="button-style1"> Prev </button></Link>
+      <button className="button-style1"> Next </button>
     </div>
     </div>
 

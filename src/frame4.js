@@ -2,6 +2,9 @@ import './Home.css';
 import React, { Component, Fragment } from 'react';
 import Select from 'react-select';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Frame5 from './frame5';
+import Frame3 from './frame3';
+import { Link } from 'react-router-dom';
 
 
 const choices = [
@@ -38,8 +41,8 @@ function Frame4() {
     </div>
     </div>
     <div className="prevskip">
-      <button className="button-style1"> Prev </button>
-      <button className="button-style1"> Skip </button>
+      <Link to="/frame3"><button className="button-style1"> Prev </button></Link>
+      <Link to="/frame5"><button className="button-style1"> Next </button></Link>
     </div>
     </div>
 
